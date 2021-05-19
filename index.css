@@ -310,8 +310,8 @@ body {
   display: inline-block;
   border-radius: 5px;
   color: var(--text-color);
-  border: 1px solid rgb(0, 0, 0, 0.08);
-  box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.126);
+  box-shadow: 0px 0px 0px rgba(120, 65, 174, 0.824);
   transition: 0.4s ease-in-out;
   transform: scale(1);
 }
@@ -376,7 +376,7 @@ body {
 }
 
 #blogs {
-  columns: 2;
+  columns: 5;
 }
 
 #blog_title {
@@ -393,12 +393,12 @@ body {
   display: inline-block;
   border-radius: 5px;
   color: var(--text-color);
-  border: 1px solid rgb(0, 0, 0, 0.04);
-  box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.126);
+  box-shadow: 0px 0px 0px rgba(120, 65, 174, 0.824);
   transition: 0.4s ease-in-out;
   transform: scale(1);
   padding: 0px;
-  margin: 2vh 0px;
+  margin: 3vh 0px;
 }
 
 #blogs section img {
@@ -414,7 +414,6 @@ body {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0);
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.071);
-  transform: scale(1.03);
 }
 
 .go_back {
@@ -546,14 +545,14 @@ body {
   background: var(--text-color);
 }
 :root {
-  --bg-color: rgb(84, 14, 135);
+  --bg-color: rgb(12, 12, 12);
   --text-color: rgb(216, 216, 216);
   --blog-gray-color: rgb(150, 150, 150);
   --background-image: linear-gradient(
       90deg,
-      rgba(100, 15, 160, 0.4),
-      rgba(255, 0, 132, 0.4)
+      rgba(0, 0, 0, 0.824),
+      rgba(0, 0, 0, 0.057)
     ),
-    url("https://www.xtrafondos.com/wallpapers/vertical/astronauta-perdido-en-el-espacio-5498.jpg");
-  --background-background: rgb(194, 194, 194);
+    url("resources/background.gif");
+  --background-background: rgb(33, 33, 33);
 }

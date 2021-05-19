@@ -1,7 +1,14 @@
 [
   {
-    "url_title": "temp",
-    "title": "none",
+    "url_title": "0-resume",
+    "title": "Résumé",
+    "sub_title": "none",
+    "top_image": "temp.gif",
+    "visible": true
+  },
+  {
+    "url_title": "1-skills",
+    "title": "Skills",
     "sub_title": "none",
     "top_image": "temp.gif",
     "visible": true
